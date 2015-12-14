@@ -1,8 +1,10 @@
 # config valid only for current version of Capistrano
 lock '3.4.0'
 
-set :application, 'app'
-set :repo_url, 'git@example.com:me/my_repo.git'
+set :application, 'remember'
+set :repo_url, 'git@github.com:luanconecte/remember.git'
+set :branch, 'master'
+set :deploy_to, '/diretorio/do/deploy'
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp

@@ -1,0 +1,12 @@
+pt-BR:
+  activerecord:
+    models:
+      friend: Amigo
+    attributes:
+      fiend:
+        id: "Id"
+        name: "Nome"
+        address: "Endereço"
+        email: "E-mail"
+        phone: "Telefone"
+        create_at: "Criado em"
